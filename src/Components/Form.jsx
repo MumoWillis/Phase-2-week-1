@@ -8,20 +8,34 @@ function Form(){
             padding:'40px',
             display:'inline-flex',
             
-            paddingLeft:'5cm'
+            
 
         }}>
            Date:<label for ="Date"></label>
            <input type ="date" placeholder='Date'/>
             <br></br>
-            <label for = "Description"></label>
+            <label for = "Description" style={{
+                paddingLeft:'4cm',
+                paddingRight:'4cm',
+               maxWidth:'8cm'
+            }}></label>
             <input type ="text" placeholder='Description'/>
+
             <br></br>
-            <label for = "Category"></label>
+            
+            <label for = "Category" style={{
+                paddingLeft:'4cm',
+                paddingRight:'4cm'
+
+            }}></label>
             <input type ="text" placeholder='Category'/>
             <br></br>
-            <label for = "Amount"></label>
-            <input type ="text" placeholder='Amount'/>
+            <label for = "Amount" style={{
+                paddingLeft:'4cm',
+                paddingRight:'4cm'
+
+            }}></label>
+            <input type ="number" placeholder='Amount'/>
         </form>
         </div>
     )
